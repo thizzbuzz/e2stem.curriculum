@@ -78,8 +78,11 @@ https://github.com/new
 Assuming you've cloned it already, navigate to the *e2stem.full_site* folder and run these commands:
 
 `git remote remove origin` 
+
 `git remote add origin <your_new_repository_url>`
+
 `git branch -M main`
+
 `git push -u origin main`
 
 
