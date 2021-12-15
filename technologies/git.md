@@ -6,7 +6,7 @@
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-Git is a version control system that will help us work collaboratively. Our code will be stored in a repository, which we can host remotely on a site like github.com or gitlab.com.
+Git is a version control system that will help us work collaboratively.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -46,7 +46,7 @@ https://github.com/settings/tokens/new
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-## Creating a new repository
+## Creating a new repository from scratch
 
 Create a new remote repository:
 
@@ -75,7 +75,7 @@ Create a new repository for the project under one of your accounts:
 
 https://github.com/new
 
-Assuming you've cloned it already, navigate to the *e2stem.full_site* folder and run these commands:
+Assuming you've cloned it already, navigate to the **e2stem.full_site** folder and run these commands:
 
 `git remote remove origin` 
 
@@ -86,7 +86,7 @@ Assuming you've cloned it already, navigate to the *e2stem.full_site* folder and
 `git push -u origin main`
 
 
-## Working on an existing project
+## Working on an project
 
 Every time you work with `git` you'll start by pulling an up-to-date copy of the project:
 
