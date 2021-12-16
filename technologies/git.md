@@ -10,7 +10,7 @@ Git is a version control system that will help us work collaboratively.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-||| **GIT**
+🔷🔷🔷 **GIT**
 
 ## Installing
 
@@ -36,7 +36,7 @@ To check the configuration:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-||| **GITHUB**
+🔷🔷🔷 **GITHUB**
 
 ## Creating an account
 
@@ -57,7 +57,7 @@ https://github.com/new
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-||| **WORKFLOWS**
+🔷🔷🔷 **WORKFLOWS**
 
 ## Cloning a repository
 
