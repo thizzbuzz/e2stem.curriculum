@@ -10,6 +10,8 @@ Git is a version control system that will help us work collaboratively.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+||| **GIT**
+
 ## Installing
 
 Start by installing git:
@@ -34,6 +36,8 @@ To check the configuration:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+||| **GITHUB**
+
 ## Creating an account
 
 Now create an account on github.com:
@@ -44,13 +48,24 @@ And create an access token:
 
 https://github.com/settings/tokens/new
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-## Creating a new repository from scratch
+## Creating a new repository on github.com
 
-Create a new remote repository:
+Create a new repository for the project under one of your accounts:
 
 https://github.com/new
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+||| **WORKFLOWS**
+
+## Cloning a repository
+
+Cloning recreates a full local copy of a remote repository:
+
+`git clone --bare https://github.com/thizzbuzz/e2stem.full_site.git`
+
+## Creating a local repository from an empty folder
 
 Initialize a new local repository:
 
@@ -60,22 +75,15 @@ Switch to the main branch:
 
 `git branch -M main`
 
-Adding an origin associates a remote repository with your local one:
+Add an origin to associate your local repository with the new remote repository:
 
 `git remote add origin <your_project_url>`
 
-Or clone an existing remote repository:
-
-`git clone https://github.com/thizzbuzz/e2stem.full_site.git`
-
-
 ## Pushing an existing repository to a new repository
 
-Create a new repository for the project under one of your accounts:
+First create a new remote repository on github.com.
 
-https://github.com/new
-
-Assuming you've cloned it already, navigate to the **e2stem.full_site** folder and run these commands:
+Then clone an existing project, and in a terminal navigate to the root of the project (e.g. the **e2stem.full_site** folder), and run these commands:
 
 `git remote remove origin` 
 
