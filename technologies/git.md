@@ -63,9 +63,11 @@ https://github.com/new
 
 Cloning recreates a full local copy of a remote repository:
 
-`git clone --bare https://github.com/thizzbuzz/e2stem.full_site.git`
+`git clone https://github.com/thizzbuzz/e2stem.full_site.git`
 
-#### Creating a local repository from an empty folder
+#### Creating a local repository 
+
+For new project, navigate to an an empty folder or existing project root
 
 Initialize a new local repository:
 
@@ -82,9 +84,9 @@ Optionally, add an origin to associate your local repository with a new remote r
 
 #### Pushing an existing repository to a new repository
 
-First create a new remote repository on github.com.
+First create a new remote repository on github.com and clone an existing project
 
-Then clone an existing project, and in a terminal navigate to the root of the project (e.g. the **e2stem.full_site** folder), and run these commands:
+Then in a terminal navigate to the root of the project (e.g. the **e2stem.full_site** folder), and run these commands:
 
 `git remote remove origin` 
 
