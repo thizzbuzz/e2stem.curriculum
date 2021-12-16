@@ -75,9 +75,10 @@ Switch to the main branch:
 
 `git branch -M main`
 
-Add an origin to associate your local repository with the new remote repository:
+Optionally, add an origin to associate your local repository with a new remote repository:
 
 `git remote add origin <your_project_url>`
+
 
 #### Pushing an existing repository to a new repository
 
