@@ -60,6 +60,10 @@ Or if the compose file is called something else:
 
 `sudo docker-compose -f <my-compose-file> up`
 
+Certain changes like adding a new dependency will require you to rebuild your containers, in that case add the `--build` option flag:
+
+`sudo docker-compose -f <my-compose-file> up --build`
+
 That's it! When you want to bring the project down run:
 
 `sudo docker-compose down`
