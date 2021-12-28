@@ -103,6 +103,10 @@ Every time you work with `git` you'll start by pulling an up-to-date copy of the
 
 `git pull origin <your_new_repository_url>`
 
+In case you see an error, try this:
+
+`git remote prune origin`
+
 After you make changes, add these changes to the staging area:
 
 `git add .`
