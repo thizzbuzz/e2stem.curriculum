@@ -6,13 +6,13 @@
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-Software development is all about using tools to make it easier to create projects
+These are some open source projects I use for software development and more general use.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 🔷🔷🔷 **Operating Systems**
 
-#### Linux Distrobutions
+#### Linux Distributions
 
   - Linux Mint
   - Manjaro
@@ -41,39 +41,36 @@ Software development is all about using tools to make it easier to create projec
 #### Text Editors / IDEs
 
   - pluma
+  - kate
   - vscodium  
   
 #### Web Frameworks
 
-  - Django
-  - Hasura / GraphQL
+  - Python (Django)
+  - Javascript (Koa, Svelte, Vue.js)
   - Wordpress
   
-  
+#### Javascript Libraries
+
+  - jQuery
+  - Lodash
+
+
+#### Terminals
+
+  - mate-terminal
+  - zsh
+  - fish
+
+
 #### Development
 
-  - cookiecutter
   - rsync
   - ssh  
   - keepassxc
-  - ansible 
-  - packer
-  - qemu
-  - virt-manager
-  - magit
+  - cookiecutter
   
-#### Internet
-  
-  - httrack
-  - gallery-dl    
-  - youtube-dl
-  
-#### Random
-  
-  - nicotine-plus
-  - musikcube  
-  - hydrogen
-  - zynaddsubfx
+
 
 
 
