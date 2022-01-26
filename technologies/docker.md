@@ -16,37 +16,37 @@ Linux operating systems are divided into two parts: the **kernel**, which is the
 
 #### Installation
 
-Update system
+Update and upgrade your system
 
 `sudo apt-get update && sudo apt-get upgrade`
 
-Install Docker and add 
+Download the install script:
 
-`curl -sSL https://get.docker.com | sh`
+`curl -fsSL https://get.docker.com -o get-docker.sh`
 
-`sudo usermod -aG docker e2stem_docker`
+Execute the script using the command:
 
-`groups e2stem_docker`
+`sudo sh get-docker.sh`
 
-And reboot...
+Add the default Pi user to the docker group:
+
+`sudo usermod -aG docker Pi`
+
+And restart your computer...
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-🔷🔷🔷 **Docker Compose**
+🔷🔷🔷 **Docker-compose**
 
-Install Python dependencies for Docker Compose:
+Install Python dependencies for Docker-compose:
 
 `sudo apt-get install libffi-dev libssl-dev`
 `sudo apt install python3-dev`
 `sudo apt-get install -y python3 python3-pip`
 
-Now install Docker-Compose:
+Now install Docker-compose:
 
 `sudo pip3 install docker-compose`
-
-And enable the system service:
-
-`sudo systemctl enable docker`
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 

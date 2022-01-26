@@ -106,6 +106,7 @@ Every time you work with `git` you'll start by pulling an up-to-date copy of the
 In case you see an error, try this:
 
 `git remote prune origin`
+`git gc --prune=now`
 
 After you make changes, add these changes to the staging area:
 
