@@ -82,7 +82,6 @@ Optionally, add an origin to associate your local repository with a new remote r
 
 `git remote add origin <your_project_url>`
 
-
 #### Working on a project
 
 Every time you work with `git` you'll start with pulling an up-to-date copy of the project by running either:
