@@ -87,9 +87,9 @@ Optionally, add an origin to associate your local repository with a new remote r
 
 Every time you work with `git` you'll start by pulling an up-to-date copy of the project:
 
-`git pull origin`
+`git pull origin` or 
 
-or `git pull <your_new_repository_url>`
+`git pull <your_new_repository_url>`
 
 After you make changes, add these changes to the staging area:
 
