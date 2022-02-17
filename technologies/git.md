@@ -89,7 +89,7 @@ Every time you work with `git` you'll start by pulling an up-to-date copy of the
 
 `git pull origin`
 
-`git pull <your_new_repository_url>`
+or `git pull <your_new_repository_url>`
 
 After you make changes, add these changes to the staging area:
 
