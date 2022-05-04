@@ -94,7 +94,7 @@ After you make changes, add these changes to the staging area:
 
 Then to commit these staged files:
 
-`git commit -m "<your_commit_message>"`
+`git commit -a -m "<your_commit_message>"`
 
 And finally to push the changes to the remote repository:
 
@@ -105,6 +105,12 @@ And that's it! If two people have made changes to the same part of the project, 
 ### Resolving merge conflicts
 
 If there are uncommitted changes locally and the remote repository has changed, then running `git pull` may produce an error.
+
+Use either:
+
+`git pull --rebase`
+
+Or:
 
 `git config pull.rebase false`
 
