@@ -86,9 +86,7 @@ Optionally, add an origin to associate your local repository with a new remote r
 
 Every time you work with `git` you'll start with pulling an up-to-date copy of the project by running either:
 
-`git pull origin`
-
-`git pull <your_new_repository_url>`
+`git pull`
 
 After you make changes, add these changes to the staging area:
 
@@ -100,9 +98,20 @@ Then to commit these staged files:
 
 And finally to push the changes to the remote repository:
 
-`git push -u origin main`
+`git push`
 
 And that's it! If two people have made changes to the same part of the project, `git` will attempt to merge those changes automatically.
 
+### Resolving merge conflicts
+
+If there are uncommitted changes locally and the remote repository has changed, then running `git pull` will produce an error.
+
+First merge or discard those changes before running. 
+
+To discard local changes:
+
+`git reset --hard HEAD`
+
+`git clean -df`
 
 
