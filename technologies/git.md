@@ -104,14 +104,9 @@ And that's it! If two people have made changes to the same part of the project, 
 
 ### Resolving merge conflicts
 
-If there are uncommitted changes locally and the remote repository has changed, then running `git pull` will produce an error.
+If there are uncommitted changes locally and the remote repository has changed, then running `git pull` may produce an error.
 
-First merge or discard those changes before running. 
+`git config pull.rebase false`
 
-To discard local changes:
-
-`git reset --hard HEAD`
-
-`git clean -df`
 
 
